@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke Test">
+    <test name="Login">
+        <classes>
+            <class name="placelab.tests.LoginTest">
+            </class>
+            <class name="placelab.tests.LoginTestEmptyPassword">
+            </class>
+            <class name="placelab.tests.LoginTestEnterKey">
+            </class>
+            <class name="placelab.tests.LoginTestInvalidPassword">
+            </class>
+            <class name="placelab.tests.LoginTestInvalidUsername">
+            </class>
+            <class name="placelab.tests.LoginTestEmptyUsername">
+            </class>
+            <class name="placelab.tests.LoginTestResetPassword">
+            </class>
+            <class name="placelab.tests.LoginTestTermsOfUse">
+            </class>
+        </classes>
+    </test>
+</suite>
